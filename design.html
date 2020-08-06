@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Diseño</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Federico Grennon">
+
+    <link rel="stylesheet" href="dist/css/design.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <a href="index.html" class="basic-button">Volver</a>
+
+    <header class="header">
+        <div class="title">Resumen del monto recibido</div>
+    </header>
+    <section class="main-section">
+        <div class="sub-container">
+            <table class="table-ammount">
+                <thead>
+                    <tr>
+                        <th>cantidad</th>
+                        <th>valor</th>
+                        <th>pesos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>400</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="sub-container">
+            <table class="table-ammount">
+                <thead>
+                    <tr>
+                        <th>cantidad</th>
+                        <th>valor</th>
+                        <th>pesos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>5.000</td>
+                    </tr>
+                    <tr>
+                        <td>200</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>20.000</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>10.000</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td><i class="fas fa-money-bill-alt"></i></td>
+                        <td>50.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="sub-container">
+            <div class="total-container">
+                <div>
+                    <div class="total-text">cantidad total</div>
+                    <input type="text" class="total-input" value="328" readonly />
+                </div>
+                <div>
+                    <div class="total-text">monto total</div>
+                    <input type="text" class="total-input" value="$53.564" readonly />
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <input type="button" class="bill-button" value="Agregar más billetes" />
+        <input type="button" class="bill-button" value="Aceptar" />
+    </footer>
+</body>
+</html>
